@@ -9,18 +9,31 @@ link to finished codepen https://codepen.io/kennytran275/pen/gOLwrrg?editors=110
     4. What is the h1 tag used for? How many times should I use it on a page?
         It's for the main title of a page that we should use once.
     5. Name two tags that have required attributes
+        Anchor and image
     6. What do we put in the head of our HTML document? 
+        Header
     7. What is an id? 
+        Id is used to specify a single HTML element.
     8. What elements can I add an id to? 
+        You can add an id to any elements as long as the id is unique.
     9. How many times can I use the same id on a page? 
+        Id must never be the same.
     10. What is a class? 
+        Class is an attribute that can be used on multiple HTML elements.
     11. What elements can I add a class to? 
+        Any elements
     12. How many times can I use the same class on a page? 
+        As much as you want.
     13. How do I get my link to open in a new tab?
+        Use target = "_blank"
     14. What is the alt attribute in the image tag used for? 
+        Alt is the description of an image if the image failed to load.
     15. How do I reference an id?
+        Use a # symbol
     16. What is the difference between a section and a div
+        Section is semantic and div is not.
     17. What is CSS used for? 
+        CSS is used to decorate the structure.
     18. How to we select an element? Example - every h2 on the page
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
     20. How do we select classes in CSS?
