@@ -35,26 +35,57 @@ link to finished codepen https://codepen.io/kennytran275/pen/gOLwrrg?editors=110
     17. What is CSS used for? 
         CSS is used to decorate the structure.
     18. How to we select an element? Example - every h2 on the page
+        Just use h2 { }.
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        Class is used to style a group of HTML elements. For example, change the text of all paragraph to red.
+        Id is used to style a specific HTML element. For example, make the second section background cyan.
     20. How do we select classes in CSS?
+        Use a .
     21. How do we select a p element with a single class of “human””?
+        .human p { }
     22. What is a parent child selector? When would this be useful? 
+        Parent selector is a broad HTML element, while a child selector is more specific under the parent. This is useful when we want to decorate something inside the parent selector.
     23. How do you select all links within a div with the class of sidebar?
+        .sidebar div a { }
     24. What is a pseudo selector?
+        Selectors with a ":" before them.
     25. What do we use the change the spacing between lines?
+        We use a break tag.
     26. What do we use to change the spacing between letters?
+        Use letter-spacing property in CSS.
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        Use text-transform property in CSS.
     28. How do I add a 1px border around my div that is dotted and black?
+        Use the border property in CSS.
     29. How do I select everything on the page? 
+        Use a "*".
     30. How do I write a comment in CSS?
+    Use /*"your comment here"*/
     31. How do I find out what file I am in, when I am using the command line? 
+        Use pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
+        Use ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        Use rm -r. It will delete everything inside the directory and the directory itself.
     34. Why should I use version control? 
+        It's great for debugging.
     35. How often should I commit to github?
+        Every major changes or every twenty minutes.
     36. What is the command we would use to push our repo up to github? 
+        git push -u origin "branch-name" for the first time. Then we can use git push.
     37. Walk me through Lambda's git flow. 
-
+        1. On github, fork your own repo.
+        2. Clone your repo on github
+        3. cd into your preferred directory
+        4. Use git clone "url"
+        5. cd into your clone repo
+        6. Make a branch with git checkout -b "your-name"
+        7. Edit the repo
+        8. Use git add .
+        9. Use git commit -m"your message"
+        10. For the first time you use git push -u origin "your-name". Then git push later
+        11. Go back to your forked repo on github and make a pull request
+        12. Copy and paste the url as a submission link
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
